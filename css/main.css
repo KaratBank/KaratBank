@@ -1,0 +1,73 @@
+body {
+    padding-top: 66px;
+    font-family: 'PT Sans', sans-serif;
+}
+@keyframes wobble {
+  from {
+    transform: rotateY(-45deg);
+  }
+  to {
+    transform: rotateY(25deg);
+  }
+}
+nav {
+    font-size: 2rem;
+}
+.bg-gold {
+    background-color: #eccc97
+}
+a.bg-gold:hover {
+    background-color: #ffdea7
+}
+.bg-transparent-white {
+    background-color: rgba(255,255,255,0.9);
+}
+.text-gold {
+    color: #eccc97
+}
+.text-gold-light {
+    color: #ffdea7
+}
+.rounded-2 {
+    border-radius: 0.5rem;
+}
+.text-large {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+h1, h2, h3, .m-v-2 {
+    margin: 2rem auto;
+}
+.countdown-amount::after, .countdown-period::after {
+  content: " ";
+}
+img.img-fluid, iframe {
+    margin: 2rem 0;
+}
+#logo {
+    text-decoration: none;
+    font-size: 2.5rem;
+    line-height: 0.75;
+}
+#logo img {
+    margin-top: -0.33rem;
+}
+#hero {
+    padding: 4rem 0;
+}
+#hero-coin {
+    animation: 4s ease-in-out 0s infinite alternate wobble;
+    width: 100%;
+    margin-top: 20%;
+}
+#black-form {
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+#main-content {
+    margin-top: 2rem;
+    font-size: 150%;
+}
+#footer {
+    margin-top: 4rem;
+}
